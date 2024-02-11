@@ -1,5 +1,6 @@
-import requests as r
 import uuid
+
+import requests as r
 from celery import shared_task
 from django.conf import settings
 
